@@ -1,3 +1,6 @@
+# Starting with an electric currents model coupled with an electrostatics model
+# goal is to run EC on the upper and lower boundaries and ES in the interior domain
+# This methodology can be directly ported to IPMC model later on
 from mpi4py import MPI
 from dolfinx import mesh
 from dolfinx import fem
